@@ -12,7 +12,7 @@ public class DeletePetTests extends TestBase {
 
     @DisplayName("Delete existing pet status")
     @Test
-    public void deletePet() {
+    public void testDeletePet() {
 
         Long id = dataHelper.generateUniqueId();
 

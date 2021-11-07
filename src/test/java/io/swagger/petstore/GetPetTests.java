@@ -12,7 +12,7 @@ public class GetPetTests extends TestBase {
 
     @DisplayName("Receive pets by available status")
     @Test
-    public void testPetsWithAvailableStatusExist() {
+    public void testGetPetsWithAvailableStatus() {
 
         Response getPetsResponse = apiPetMethods.getPetsByStatus("available");
         checker.checkResponseCodeEquals(200, getPetsResponse);
