@@ -12,7 +12,7 @@ public class AddPetTests extends TestBase {
 
     @DisplayName("Add new pet")
     @Test
-    public void createNewPet() {
+    public void testAddNewPet() {
 
         Long id = dataHelper.generateUniqueId();
 

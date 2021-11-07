@@ -12,7 +12,7 @@ public class UpdatePetTests extends TestBase {
 
     @DisplayName("Update existing pet status")
     @Test
-    public void updatePet() {
+    public void testUpdatePet() {
 
         Long id = dataHelper.generateUniqueId();
 
